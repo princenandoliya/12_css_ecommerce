@@ -295,3 +295,121 @@ transition: all 0.2s;
 box-shadow: 12px 12px 2px 1px rgba(125, 125, 252, 0.479);
 
 }
+
+
+
+
+/* ================================
+   📌 Base Styles (mobile first)
+   — your existing CSS already works here
+================================ */
+
+/* ================================
+   📌 ≥ 250px
+================================ */
+@media (min-width: 250px) {
+    .card {
+        width: 90%;
+        margin: 10px auto;
+    }
+    
+    .search {
+        width: 100%;
+        font-size: 14px;
+    }
+    
+    .nav-link {
+        font-size: 12px;
+    }
+}
+
+/* ================================
+   📌 ≥ 476px
+================================ */
+@media (min-width: 476px) {
+    .card {
+        width: 80%;
+    }
+
+    .btn {
+        font-size: 14px;
+        padding: 6px 12px;
+    }
+}
+
+/* ================================
+   📌 ≥ 576px
+================================ */
+@media (min-width: 576px) {
+    .card {
+        width: 48%;
+        display: inline-block;
+    }
+
+    .search {
+        width: 70%;
+    }
+
+    .nav-link {
+        font-size: 14px;
+    }
+}
+
+/* ================================
+   📌 ≥ 768px (Tablet)
+================================ */
+@media (min-width: 768px) {
+    .card {
+        width: 30%;
+    }
+
+    .nav-link {
+        display: inline-block;
+        margin: 0 5px;
+    }
+
+    .container1 {
+        flex-direction: row;
+        text-align: left;
+    }
+}
+
+/* ================================
+   📌 ≥ 990px
+================================ */
+@media (min-width: 990px) {
+    .card {
+        width: 23%;
+    }
+
+    .search {
+        width: 300px;
+    }
+
+    .nav {
+        float: right;
+    }
+
+    .logo {
+        float: left;
+    }
+}
+
+/* ================================
+   📌 ≥ 1200px
+================================ */
+@media (min-width: 1200px) {
+    .card {
+        width: 22%;
+    }
+
+    .navbar {
+        max-width: 1320px;
+        margin: auto;
+    }
+
+    .nav-link {
+        font-size: 16px;
+        padding: 6px 10px;
+    }
+}
